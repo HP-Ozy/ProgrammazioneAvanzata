@@ -1,0 +1,66 @@
+i Tipi di dati astratti:
+perchè ?
+perchè una struttura dato INFLUENZA
+Considerevolmente l'efficenza dell'software e delle complessità possibili.
+
+
+
+
+primo tipo di dati.
+AD inizio abbiamo parlato dei tipi BASE O SCALARE:
+
+
+secondo tipo,
+POI ABBIAMO I TIPI STRUCT,
+ma i tipi sottostanti restano gli stessi:
+
+
+Terzo tipi:
+con gli ADT, 
+le manipolazioni sono accessibili solo tramite API,
+ l'unica cosa che vediamo è la funzione dellimplementazione non come 
+ è stata fatta tramite il linguaggio l'operazione.
+
+
+
+
+
+
+
+
+ADT(Abstract data type):
+adt pila o stack:
+
+è UN ADT CHE TI PERMETTE DI CANCELLARE O FARE OPERAZIONI SOLO TRAMITE 
+LA PARTE TOP O BOTTOM.
+in una pila l'ultimo oggetto inserito è anche il primo ad essere estratto.
+
+
+
+Ad esempio GIT è una perfetta struttura STACK 
+CON UN PUSH UN POP(MERGE) ED UN PULL,
+IN PIù SE DECIDO DI FARE UNA STRUTTURA STACK ALL'INTERNO DEL MIO SOFTWARE IN MANIERA DINAMICA HO RISOLTO PRATICAMENTE MOLTISSIME NECESSITà.
+
+
+
+ADT coda:
+
+QU IINSERIMENTO E CANCELLAZIONE SONO CONSETITE SOLO IN SPECIFICHE POSIZIONI;
+LA CODA HA UNA GESTIONE FIFO(FIRST IN FIRST OUT)
+tipo una coda di persone 
+in sintesi il primo in testa alla coda è il primo ad essere scelto, a differenza dello stack dove l'ultimo inserito veniva preso per primo. 
+
+
+ABBIAMO LE CODE TIPO PRIPRITà: 
+nella coda tradizionale ho lo schema detto in precedenza, la coda riorità andiamo a prelevare in base alla priorità di vettore o oggetto e preleviamo in base alla priorità 
+
+
+Abbiamo possibili implementazioni di coda priorità ad HEAP: 
+DOVE LE CHIAVI SONO ORGANIZZATE AD ALBERO O OGGETTI A LIVELLI SIMILE AD UN LIVELLO RICORSIVO. 
+possiamo avere MAX HEAP - MIN HEAP. 
+QUINDI AD ESEMPIO SE HO UN ORDINAMENTO PRIPRITARIO BUTTOM UP O TOP DOWN HO QUESTA LOGICA.
+il heap è un albero binario bilanciato dal ultimo livello all primo. 
+lo heap è memorizzabile tramite vettore!!.
+
+
+ADT ALBERO:

@@ -1,0 +1,16 @@
+La problematica della memoria dinamica: 
+
+il primo 
+la spazzatura o la garbage
+
+quando allochiamo e puntiamo con un puntatore ad delle celle di memoria e poi richiamiamo questo puntatore ad un altro soggetto non ho più accesso alle celle su cui avevo allocato staticamente la memoria di cui il puntatore di fa portatore 
+
+la seconda: 
+referenze di memoria fluttuanti:
+esempio: 
+int *p, *q;
+
+p = q
+free(q);
+
+qui possiamo vedere che con due puntatori una volta liberato il puntatore che funge d'appoggio ad un altro puntatore mi ritrovo nella situazione dove non so bene quello che sta succedendo perchè la memoria è fluttuante 

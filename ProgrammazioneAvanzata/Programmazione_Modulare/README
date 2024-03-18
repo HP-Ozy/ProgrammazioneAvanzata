@@ -1,0 +1,16 @@
+Gestione di progetti
+    Come si connettono moduli diversi ? 
+
+
+    Come si gestisce un progetto ?:
+        non è possibile lavorare in un progetto complesso in un unico file sorgente.
+        con un unico file sorgente monolitico sarà lento eseguire le modifiche e testarle.
+
+REGOLE DI VISIBILITà: 
+    definiamo i file creati o i moduli creati come delle scatole che 
+    contengono oggetti esporta oggetti moduli ecc.
+    -Immaginiamo gli oggetti come vere e proprie rappresentazioni di cose reale che fanno cose hanno funzioni vengono spostati esportati e importati.
+    -come faccio nella praticità in C ? non dobbiamo fare nulla perchè le funzioni in default in c sono pubbliche...
+    -come si importa un modulo o una funzione c in un file o un altro modulo ? 
+    -come rendere un modulo privato ? 
+    -come far tutte le operazioni possibili ? 

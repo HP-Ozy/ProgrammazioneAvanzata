@@ -1,0 +1,38 @@
+Defininiamo cosa intendiamo per ricorsione: 
+
+in che caso lo utilizziamo ?
+
+
+che tipologie di ricorsioni abbiamo ? 
+
+che problemi abbiamo nel utilizzo della ricorsione ? 
+
+
+Come si analizza un algoritmo ricorsivo ? 
+con la TOP - DOWN 
+si ricostruisce un albero inverso e si analizza 
+
+BOTTOM- UP 
+
+
+è efficente la ricorsione ? 
+se si in cosa ? 
+
+fammi degli esempi di efficenza ricorsiva applicata ad un programma !
+
+ad esempio
+Sappiamo che ad ogni chiamata viene allocato nello stack delle celle di memoria chiamatosi frame
+cosa contiene la chiamata funzione ? 
+degli argomenti, dei valori di parametro, variabili locali ecc 
+
+
+che impatto ha questo sulla ricorsione ? 
+
+DI BASE OGNI FUNZIONE RICORSIVA HA LA SUA CONTROPARTE ITERATIVA.
+
+quando si dovrebbe utilizzare una funzione ricorsiva ?
+ quando evoca se stessa più volte 
+
+
+
+
